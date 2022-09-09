@@ -44,5 +44,4 @@ public class entrada {
     
 
 
-// 11. Escreva um programa que leia dois números inteiros A e B quaisquer indicando se A é múltiplo de B ou se B é múltiplo
-// de A.
+// 10. Leia três números quaisquer, imprimindo-os em ordem crescente. 
