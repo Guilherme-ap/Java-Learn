@@ -23,6 +23,5 @@ public class entrada {
         entrada.close();
 }
 }
-// 20. Escreva um programa que leia um valor real correspondente a uma medida em metros, convertendo o valor dado em pés
-// (1 metro = 3.315 pés), exibindo os valores dado e convertido. Caso o usuário forneça um valor negativo, deve ser exibida
-// uma mensagem e a operação de conversão não deve ser efetuada. 
+// 21. Faça um algoritmo que, lendo 3 números correspondentes aos coeficientes a, b, e c de uma equação do 2º grau, calcule
+// seu DELTA e também as raízes desta equação, imprimindo seus valores. 
