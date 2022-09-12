@@ -4,7 +4,35 @@ public class entrada {
   
     public static void main(String[] args){
         Scanner entrada = new Scanner (System.in);
+        double juros, inv, x = 1,soma = 0;
+        String op;
+        System.out.println("Digite o valor de investimento");
+        inv = entrada.nextDouble();
+        System.out.println("Digite o juros");
+        juros = entrada.nextDouble();
+        while(x > 0){
+        soma = (soma + (inv + (inv * (juros / 100))));
+        x++;
+        if(x > 0){
+            System.out.printf("R$:%.2f\n", soma);
+            if(x == 12){
+            System.out.println("Deseja Processar mais um ano? (S/N)");
+            entrada.nextLine();
+            op = entrada.nextLine();
+            switch(op){
+                case "S":
+                x = 1;
+                break;
+                case "N":
+                x = -1;
+                break;
+                default:
+                x = -1;
+            }
+        }
+    }
         
+        }
         entrada.close();
         
 }
